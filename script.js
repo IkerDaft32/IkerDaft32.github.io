@@ -1,7 +1,7 @@
 // Preguntas, respuestas y pistas
 const preguntas = [
-    { pregunta: "¿Cuál fue nuestra primera cita?", respuesta: "cine", pista: "Fue un lugar donde vimos una película" },
-    { pregunta: "¿Cuál es mi color favorito?", respuesta: "azul", pista: "El color del cielo" },
+    { pregunta: "¿Comó se llama nuestro hijo?", respuesta: "thor", pista: "Recuerda que murio 3 veces" },
+    { pregunta: "¿Quien fue culpable de juntarnos?", respuesta: "azul", pista: "El color del cielo" },
     { pregunta: "¿Dónde nos conocimos?", respuesta: "escuela", pista: "Un lugar lleno de libros y maestros" },
     { pregunta: "¿Cómo se llama mi mascota?", respuesta: "firulais", pista: "Un nombre divertido para un perro" },
     { pregunta: "¿Qué día nos hicimos novios?", respuesta: "14 febrero", pista: "Un día especial para los enamorados" },
