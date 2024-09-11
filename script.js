@@ -1,11 +1,11 @@
 // Preguntas, respuestas y pistas
 const preguntas = [
-    { pregunta: "¿Comó se llama nuestro hijo?", respuesta: "thor", pista: "Recuerda que murio 3 veces" },
-    { pregunta: "¿Quien fue culpable de juntarnos?", respuesta: "azul", pista: "El color del cielo" },
     { pregunta: "¿Dónde nos conocimos?", respuesta: "escuela", pista: "Un lugar lleno de libros y maestros" },
-    { pregunta: "¿Cómo se llama mi mascota?", respuesta: "firulais", pista: "Un nombre divertido para un perro" },
-    { pregunta: "¿Qué día nos hicimos novios?", respuesta: "14 febrero", pista: "Un día especial para los enamorados" },
-    { pregunta: "¿Cómo se llama la canción que siempre escuchamos juntos?", respuesta: "perfect", pista: "Es una canción de Ed Sheeran" }
+    { pregunta: "¿Comó se llama nuestro hijo?", respuesta: "thor", pista: "Recuerda que murio 3 veces y ahora ni te acuerdas de el" },
+    { pregunta: "¿De donde viene mi personalidad?", respuesta: "Batman", pista: "🦇" },
+    { pregunta: "¿Cuál fue el primer juego que jugamos?", respuesta: "Minecraft", pista: "Un mundo de cuadros" },
+    { pregunta: "¿Desde qué mes me enamore de ti?", respuesta: "Mayo", pista: "Fue el mes que empezamos a hablar" },
+    { pregunta: "¿Quieres ser mi novia?", respuesta: "si", pista: "No supe como decirtelo" }
 ];
 
 let preguntaActual = 0;
@@ -49,7 +49,7 @@ nextBtn.addEventListener('click', function() {
     if (respuestaUsuario === preguntas[preguntaActual].respuesta.toLowerCase()) {
         messageElement.textContent = '¡Correcto! 💕';
     } else {
-        messageElement.textContent = 'Mmm... no es correcto, pero aún te amo. ❤️';
+        messageElement.textContent = 'Mmm... no es correcto, pues ni modote. ❤️';
     }
     
     // Avanzar a la siguiente pregunta después de un pequeño retraso
@@ -66,8 +66,9 @@ nextBtn.addEventListener('click', function() {
 
 // Función que se llama al finalizar todas las preguntas
 function terminarCuestionario() {
-    questionElement.textContent = "¡Has completado el desafío de amor! 💖";
-    messageElement.textContent = "Gracias por responder. ¡Te amo!";
+    questionElement.textContent = "¡Dimelo en la escuela! 💖";
+    messageElement.textContent = "No voy a ver los mensajes orita ";
     inputElement.style.display = 'none';  // Ocultar el campo de texto
     nextBtn.style.display = 'none';  // Ocultar el botón de siguiente
 }
+
